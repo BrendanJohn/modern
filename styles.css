@@ -1,0 +1,387 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*landscape*/
+
+#wrapper {
+    position: relative;
+    display: block;
+    width: auto;
+    height: 550px;
+    bottom: 50px;
+}
+#landscape {
+    position: absolute;
+    bottom: 0;
+    right: 85px;
+    height: 500px;
+    border-bottom: 1px solid #eee;
+}
+#landscape li {
+    position: relative;
+    float: left;
+    width: 130px;
+    height: 100%;
+    margin-left: 80px;
+}
+/*buildings*/
+.building {
+    position: absolute;
+    bottom: 100px;
+    transition: height 2s;
+}
+#landscape .building:hover {
+    height: 272px;
+}
+#landscape .building:hover> .window 
+{ background-color: yellow; 
+}
+.top {
+    border-left: 3px solid lightblue;
+    height: 19px;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    display: inline-block;
+    top: -18px;
+}
+.topLeft {
+    width: 35px;
+    height: 20px;
+    background: white;
+    display: inline-block;
+    float: left;
+}
+.topRight {
+    width: 35px;
+    height: 20px;
+    background: white;
+    display: inline-block;
+    float: right;
+}
+.window {
+    width: 14px;
+    height: 30px;
+    display: inline-block;
+    margin-left: 7px;
+    margin-top: 6px;
+    animation: windows 5s;
+    background: cornflowerblue;
+}
+@keyframes windows {
+    0% {
+        background: 0;
+    }
+    20% {
+        background: 0;
+    }
+    75% {
+        background: cornflowerblue;
+        transform: rotate(180deg);
+    }
+    100% {
+        background: cornflowerblue;
+        transform: rotate(180deg);
+        transition-duration: 3s;
+    }
+}
+.windowBlank {
+    width: 14px;
+    height: 30px;
+    display: inline-block;
+    margin-left: 7px;
+    margin-top: 6px;
+}
+.name {
+    position: absolute;
+    bottom: 55px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+    transform: translate(3px, 3px);
+    color: cornflowerblue;
+}
+
+#hancock {
+    background-color: lightblue;
+    animation: growHancock 3s;
+    height: 241pt;
+}
+@keyframes growHancock {
+    0% {
+        height: 100pt;
+        width: 95%;
+        filter: blur(1px);
+    }
+    10% {
+        height: 115pt;
+        width: 95%;
+        filter: blur(1px);
+    }
+    20% {
+        height: 130pt;
+        width: 95%;
+        filter: blur(1px);
+    }
+    30% {
+        height: 145pt;
+        width: 95%;
+        filter: blur(1px);
+    }
+    40% {
+        height: 150pt;
+        width: 95%;
+    }
+    50% {
+        height: 165pt;
+        width: 95%;
+    }
+    60% {
+        height: 180pt;
+        width: 95%;
+    }
+    70% {
+        height: 195pt;
+        width: 95%;
+    }
+    80% {
+        height: 210pt;
+        width: 96%;
+    }
+    90% {
+        height: 225pt;
+        width: 97%;
+    }
+    100% {
+        height: 241pt;
+        width: 100%;
+    }
+}
+#prudential {
+    background-color: darkseagreen;
+    animation: growPru 4s;
+    height: 228pt;
+}
+@keyframes growPru {
+    0% {
+        height: 100pt;
+        width: 95%;
+        filter: opacity(10%);
+    }
+    10% {
+        height: 115pt;
+        width: 95%;
+        filter: opacity(20%);
+    }
+    20% {
+        height: 130pt;
+        width: 95%;
+        filter: opacity(30%);
+    }
+    30% {
+        height: 145pt;
+        width: 95%;
+        filter: opacity(40%);
+    }
+    40% {
+        height: 150pt;
+        width: 95%;
+        filter: opacity(50%);
+    }
+    50% {
+        height: 165pt;
+        width: 96%; 
+        filter: opacity(60%);
+    }
+    60% {
+        height: 180pt;
+        width: 97%;
+        filter: opacity(70%);
+    }
+    70% {
+        height: 195pt;
+        width: 98%;
+        filter: opacity(80%);
+    }
+    80% {
+        height: 210pt;
+        width: 99%;
+        filter: opacity(90%);
+    }
+    90% {
+        height: 225pt;
+        width: 100%;
+        filter: opacity(80%);
+    }
+    100% {
+        height: 228pt;
+        width: 100%;
+    }
+}
+#millenium {
+    background-color: lightskyblue;
+    animation: growMillenium 2s;
+    height: 209pt;
+}
+@keyframes growMillenium {
+    0% {
+        height: 100pt;
+        filter: blur(3px);
+        filter: opacity(30%);
+    }
+    10% {
+        height: 115pt;
+        filter: blur(3px);
+        filter: opacity(40%);
+    }
+    20% {
+        height: 130pt;
+        filter: blur(3px);
+        filter: opacity(50%);
+    }
+    30% {
+        height: 145pt;
+        filter: blur(2px);
+        filter: opacity(60%);
+    }
+    40% {
+        height: 150pt;
+        filter: blur(1px);
+        filter: opacity(70%);
+    }
+    50% {
+        height: 165pt;
+    }
+    60% {
+        height: 180pt;
+    }
+    70% {
+        height: 195pt;
+    }
+    80% {
+        height: 209pt;
+        width: 98%;
+    }
+    90% {
+        height: 209pt;
+        width: 99%;
+    }
+    100% {
+        height: 209pt;
+        width: 100%;
+    }
+}
+svg:hover #prudential { 
+  fill:darkseagreen;
+  transition-duration: 2s;
+}
+svg:hover #millenium { 
+  fill:lightskyblue;
+  transition-duration: 2s;
+}
+svg:hover #hancock { 
+  fill:lightblue;
+  transition-duration: 2s;
+}
+div {
+    display: block;
+}
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.rounded {
+    border-radius: 25px;
+}
+.shadow {
+    filter: drop-shadow(16px 16px 10px #888888);
+}
+article p,
+article h3 {
+    float: left;
+    clear: both;
+}
+footer {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: #efefef;
+    text-align: center;
+}
+/*layouts*/
+
+.small-column {
+    float: left;
+    width: 30%;
+}
+.large-column {
+    float: left;
+    width: 70%;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1100px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.centered {
+    margin: auto;
+    width: 50%;
+}
+/*nav*/
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: linear-gradient(70deg, black, gray);
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    color: #fff;
+    transition-property: color, background-color;
+    transition-duration: 1s;
+    transition-timing-function: ease-out;
+}
+a:hover,
+a:focus {
+    color: #333;
+    background-color: #fff;
+}
+.navbar {
+    margin-bottom: 20px;
+}
+/*table*/
+
+table {
+    display: block;
+    clear: both;
+    border-collapse: collapse;
+    width: 100%;
+}
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    color: cornflowerblue;
+}
+
+    

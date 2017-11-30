@@ -1,0 +1,77 @@
+DGMD E-20 Assignment 3
+
+Your name: Brendan Murphy
+
+1. Provide a link to the first page of your website: http://tallest.brendanmurph.com/
+
+My site looks the way I want on (choose one): PC
+
+With this browser (choose one): Chrome 
+
+
+TRANSITIONS & TRANSFORMS (25% of grade)
+Provide URL(s) and starting line number(s) for HTML and CSS for each item.
+
+2a. Instance #1 of transforms:
+http://tallest.brendanmurph.com/index.html line 72 
+http://tallest.brendanmurph.com/styles.css line 102
+
+2b. Instance #2 of transforms:
+http://tallest.brendanmurph.com/index.html line 39
+http://tallest.brendanmurph.com/styles.css line 80
+
+3a. Instance #1 of transition, which is associated with a transform:
+http://tallest.brendanmurph.com/index.html line 40
+http://tallest.brendanmurph.com/styles.css line 85
+
+3b. Instance #2 of transition:
+http://tallest.brendanmurph.com/index.html line 35
+http://tallest.brendanmurph.com/styles.css line 31
+
+
+CSS ANIMATION (25% of grade)
+Provide URL(s) and starting line number(s) for HTML and CSS for each item. 
+
+For the animation with at least 4 keyframes:
+4. Keyframes start on this CSS line number:
+http://tallest.brendanmurph.com/index.html line 35
+http://tallest.brendanmurph.com/styles.css line 111
+
+5a. First property that changes through the 4 keyframes:
+height 
+http://tallest.brendanmurph.com/index.html line 35
+http://tallest.brendanmurph.com/styles.css line 113
+
+5b. Second property that changes through the 4 keyframes:
+width
+http://tallest.brendanmurph.com/index.html line 35
+http://tallest.brendanmurph.com/styles.css line 114
+
+6. This animation is activated on (choose one):  
+page load/hover/active state of link 
+page load
+
+SVG PLUS ANIMATION (25% of grade)
+
+7. Indicate where the SVG starts (separate file or starting HTML line number): 
+http://tallest.brendanmurph.com/hancock.html line 37
+
+8. Attribution for SVG, or indicate that you created it yourself:
+http://tallest.brendanmurph.com/hancock.html line 32
+
+9a. SVG animation keyframe location (starting CSS line number):
+http://tallest.brendanmurph.com/styles.css line 275
+
+9b. URL location of the SVG animation:
+http://tallest.brendanmurph.com/hancock.html
+
+CSS FILTERS (25% of grade) 
+Provide URL(s) and starting line number(s) for HTML and CSS for each item.
+
+10a. CSS filter #1, which was transitioned/animated:
+http://tallest.brendanmurph.com/index.html line 114
+http://tallest.brendanmurph.com/styles.css line 230
+
+10b. CSS filter #2:
+http://tallest.brendanmurph.com/index.html line 14
+http://tallest.brendanmurph.com/styles.css line 300
