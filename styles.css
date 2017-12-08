@@ -22,32 +22,39 @@ article h3 {
     clear: both;
 }
 footer {
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    left: 0;
     padding: 1rem;
     background-color: #efefef;
     text-align: center;
 }
 /*flex system*/
-.row {
+.wrapper {
+}
+.flex-container {
     display: flex;
+    margin-bottom: 10px;
 }
 [class*="col"]{
-    margin-left: 3%;
+    margin-left: 1%;
+    margin-right: 1%;
 }
-.col-1 {
+.col-full {
+    flex-basis: 100%;
+}
+.col-large {
     background-color: green;
-    flex-basis: 30%;
+    flex-basis: 75%;
 }
-.col-2 {
+.col-medium{
     background-color: blue;
-    flex-basis: 30%;
+    flex-basis: 50%;
 }
-.col-3 {
+.col-small {
+    background-color: yellow;
+    flex-basis: 25%;
+}
+.col-xsmall {
     background-color: gray;
-    flex-basis: 30%;
+    flex-basis: 10%;
 }
 
 article li {
