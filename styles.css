@@ -39,21 +39,21 @@ footer {
     flex-basis: 98%;
 }
 .col-large {
-    background-color: green;
+    background: #ecf0f1;
     text-align: left;
     flex-basis: 73%;
 }
-.col-medium{
-    background-color: blue;
+.col-medium{ 
+    background: #2980b9;
     flex-basis: 48%;
     text-align: center;
 }
 .col-small {
-    background-color: yellow;
+    background: #f1c40f;
     flex-basis: 23%;
 }
 .col-xsmall {
-    background-color: gray;
+    background: #1abc9c;
     flex-basis: 10%;
 }
 .first {
