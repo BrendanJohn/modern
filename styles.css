@@ -26,9 +26,7 @@ footer {
     background-color: #efefef;
     text-align: center;
 }
-/*flex system*/
-.wrapper {
-}
+/*flex system*/ 
 .flex-container {
     display: flex;
     margin-bottom: 10px;
