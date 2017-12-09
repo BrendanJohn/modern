@@ -56,6 +56,22 @@ footer {
     background-color: gray;
     flex-basis: 10%;
 }
+.first {
+    order: 1;
+}
+.second {
+    order: 2;
+}
+.third {
+    order: 3;
+}
+.fourth {
+    order: 4;
+}
+.fifth {
+    order: 5;
+}
+
 .wrapper {
     max-width: 1150px;
     margin: 0 auto;
