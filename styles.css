@@ -36,47 +36,38 @@ footer {
     margin-right: 1%;
 }
 .col-full {
-    flex-basis: 100%;
+    flex-basis: 98%;
 }
 .col-large {
     background-color: green;
-    flex-basis: 75%;
+    text-align: left;
+    flex-basis: 73%;
 }
 .col-medium{
     background-color: blue;
-    flex-basis: 50%;
+    flex-basis: 48%;
+    text-align: center;
 }
 .col-small {
     background-color: yellow;
-    flex-basis: 25%;
+    flex-basis: 23%;
 }
 .col-xsmall {
     background-color: gray;
     flex-basis: 10%;
 }
+.wrapper {
+    max-width: 1150px;
+    margin: 0 auto;
+}
+
+
+article, aside {
+    text-align: center;
+}
 
 article li {
     clear: both;
-}
-/*layouts*/
-.small-column {
-    float: left;
-    width: 30%;
-}
-.large-column {
-    float: left;
-    width: 70%;
-}
-.container {
-    margin-right: auto;
-    margin-left: auto;
-    max-width: 1100px;
-    padding-right: 10px;
-    padding-left: 10px;
-}
-.centered {
-    margin: auto;
-    width: 50%;
 }
 
 /*nav*/
@@ -87,7 +78,7 @@ nav ul {
     overflow: hidden;
     background: linear-gradient(70deg, black, gray);
 }
-li {
+nav li {
     float: left;
 }
 li a {
