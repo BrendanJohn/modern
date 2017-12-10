@@ -43,7 +43,7 @@ footer {
     text-align: left;
     flex-basis: 73%;
 }
-.col-medium{ 
+.col-medium { 
     background: #2980b9;
     flex-basis: 48%;
     text-align: center;
@@ -76,7 +76,13 @@ footer {
     max-width: 1150px;
     margin: 0 auto;
 }
-
+.col-medium img {
+    max-width: 500px;
+    max-height: 500px;
+}
+.col-small img {
+    max-width: 230px;
+}
 
 article, aside {
     text-align: center;
