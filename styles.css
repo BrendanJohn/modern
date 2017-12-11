@@ -72,7 +72,7 @@ footer {
     order: 5;
 }
 
-.wrapper {
+.container {
     max-width: 1150px;
     margin: 0 auto;
 }
@@ -93,6 +93,9 @@ article li {
 }
 
 /* mondrian */
+.wrapper {
+
+}
 .test {
     width: 600px;
     height: 600px;
