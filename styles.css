@@ -188,6 +188,7 @@ article li {
 .cols1 {
     background: #1abc9c;
     text-align: center;
+    padding: 5px;
 }
 .left-half {
     grid-column: 1/6;
