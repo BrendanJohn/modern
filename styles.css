@@ -1,4 +1,4 @@
-/*flex system*/
+/*flexbox grid layout start*/
 
 .flex-container {
     display: flex;
@@ -127,7 +127,7 @@
     background-color: gold;
     color: white;
 }
-/*grid system*/
+/*grid layout*/
 
 .gridWrapper {
     display: grid;

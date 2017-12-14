@@ -17,32 +17,48 @@ PART 1B FLEXBOX LAYOUT
 Provide URL(s) and starting line number(s) for HTML and CSS for each item. 
 
 3.URL for the page coded with Flexbox grid layout. In the CSS, include a comment for where the Flexbox grid layout starts.
+http://modern.brendanmurph.com/ line 23
+http://modern.brendanmurph.com/styles.css line 1
 
-4. Number of columns used in your grid system:
+4. Number of columns used in your grid system: 5
 
 5. HTML and CSS line numbers for where grid reordering occurs:
+http://modern.brendanmurph.com/ line 80
+http://modern.brendanmurph.com/styles.css line 32
 
 
 PART 2A MONDRIAN PAINTING
 6. URL for your coded Mondrian painting:
-
+http://modern.brendanmurph.com/mondrian.html
 
 PART 2B GRID LAYOUT
 7. URL for the page coded with Grid layout. In the CSS, include a comment for where the Grid layout starts.
+http://modern.brendanmurph.com/grid.html line 9
+http://modern.brendanmurph.com/styles.css line 130
 
 8. HTML and CSS line numbers for where grid reordering occurs:
+http://modern.brendanmurph.com/grid.html line 47
+http://modern.brendanmurph.com/styles.css line 167
 
 9. HTML and CSS line numbers for where grid offset OR nested grid occurs:
+http://modern.brendanmurph.com/grid.html line 23
+http://modern.brendanmurph.com/styles.css line 194
 
 
 PART 3 CSS CALC
 Provide URL(s) and starting line number(s) for HTML and CSS for each item. 
 
 10. Calc used here #1:
+http://modern.brendanmurph.com/index.html line 62
+http://modern.brendanmurph.com/styles.css line 30
 
 11. Calc used here #2:
+http://modern.brendanmurph.com/index.html line 28
+http://modern.brendanmurph.com/styles.css line 56
 
 12. Calc used here #3:
+http://modern.brendanmurph.com/grid.html line 23
+http://modern.brendanmurph.com/styles.css line 198
 
 
 PART 4: CSS LAYOUT PAPER
